@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>フィルタリング</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- jQuery本体 -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>PET</h1>
+
+    <div id="buttons">
+      <button value="all" class="current">all</button>
+      <button value="dog">犬</button>
+      <button value="cat">猫</button>
+      <button value="rabbit">うさぎ</button>
+      <button value="harinezumi">ハリネズミ</button>
+      <button value="feretto">フェレット</button>
+    </div><!-- /#buttons -->
+
+    <ul id="list">
+      <li class="dog">
+        <img src="img/dog.jpg" alt="item1">
+      </li>
+      <li class="cat">
+        <img src="img/cat.jpg" alt="item3">
+      </li>
+      <li class="rabbit">
+        <img src="img/rabbit2.jpg" alt="item6">
+      </li>
+      <li class="dog">
+        <img src="img/dog2.jpg" alt="item2">
+        <li class="harinezumi">
+          <img src="img/harinezumi.webp" alt="item7">
+        </li>
+      </li>
+      <li class="cat">
+        <img src="img/cat2.webp" alt="item4">
+      </li>
+      <li class="feretto">
+        <img src="img/feretto2.webp" alt="item10">
+      </li>
+      <li class="rabbit">
+        <img src="img/rabbit.jpg" alt="item5">
+      </li>
+      <li class="harinezumi">
+        <img src="img/harinezumi2.jpg" alt="item8">
+      </li>
+      <li class="feretto">
+        <img src="img/feretto.webp" alt="item9">
+      </li>
+    </ul><!-- /#list -->
+  </div><!-- /#wrapper -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
